@@ -1,38 +1,43 @@
+
 .App {
   text-align: center;
+  background-color: black;
+  color: rgb(0, 0, 0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Adjustments for the input group to make the search bar gray with white text */
+.input-group .form-control {
+  background-color: rgb(255, 255, 255);
   color: white;
+  padding: 30%;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style for the search button to make it purple */
+.buttons {
+  color: beige;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnn {
+  color: aqua;
+}
+
+/* Adds more space between each card */
+.card {
+  margin-bottom: 20px; /* Adjust this value to increase/decrease space */
+}
+
+
+.Row {
+  justify-content: center;
+}
+
+
+.Card.Img {
+  max-height: 50px; /* Adjust based on your preference */
+  object-fit: cover;
 }
